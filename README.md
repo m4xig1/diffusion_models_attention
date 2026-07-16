@@ -1,6 +1,6 @@
 # Register Guidance for Pixel-space Diffusion (JiT)
 
-[[project page]](https://quickjkee.github.io/registers-project-page/) [[arXiv]](https://arxiv.org/pdf/2605.16147) [[Twitter]]()
+[[project page]](https://quickjkee.github.io/registers-project-page/) [[arXiv]](https://arxiv.org/pdf/2605.16147) [[Twitter]](https://x.com/NikStarodub/status/2077675854843294137?s=20)
 
 <p align="center">
   <img src="demo/grid.png" width="100%">
