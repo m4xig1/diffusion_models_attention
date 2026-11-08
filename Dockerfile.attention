@@ -1,0 +1,7 @@
+ARG BASE_IMAGE=pytorch/pytorch:2.5.1-cuda12.4-cudnn9-runtime
+FROM ${BASE_IMAGE}
+WORKDIR /workspace
+RUN python -m pip install --no-cache-dir numpy==1.26.4 einops==0.8.1 pillow==11.3.0
+COPY . /workspace
+ENV TORCH_COMPILE_DISABLE=1
+CMD ["python", "visualize_attention.py"]

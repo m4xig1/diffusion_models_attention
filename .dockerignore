@@ -1,0 +1,6 @@
+.git
+checkpoints
+attention_output
+__pycache__
+fid_stats
+demo
